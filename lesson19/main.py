@@ -15,9 +15,9 @@ def index(question:str = ""):
     html_format = html_format.replace("```html","").replace("```","")
     return html_format 
 
-@app.route('/hello')    #/hello 那頁
+@app.route('/deal with')    #/hello 那頁
 def hello():
-    return '<h1>Hello, World</h1>'
+    return '<h1>處理</h1>'
 
 #flask --app main run--debug
 #pip gunicorn (正式的)
