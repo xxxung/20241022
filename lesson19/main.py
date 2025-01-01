@@ -17,7 +17,7 @@ def index(question:str = ""):
 
 @app.route('/dealwith')    #/hello 那頁
 def hello():
-    return '<h1>處理</h1>'
+    return '<h1>想被處理?</h1>'
 
 #flask --app main run--debug
 #pip gunicorn (正式的)
